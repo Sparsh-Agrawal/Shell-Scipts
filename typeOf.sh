@@ -1,9 +1,9 @@
 if [ -f $1 ]
 then 
-echo "File"
+echo "It is a File"
 elif [ -d $1 ]
 then 
-echo "Directory"
+echo "It is a Directory"
 else
-echo "Specified name not found"
+echo "Specified name not found in the current Directory"
 fi 
